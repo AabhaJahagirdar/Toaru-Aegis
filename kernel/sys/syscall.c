@@ -1401,7 +1401,9 @@ void syscall_handler(struct regs * r) {
 		goto _finish_syscall;
 	}
 
-	scall_func func = syscalls[arch_syscall_number(r)];
+	long sys_num = arch_syscall_number(r);
+
+	scall_func func = syscalls[sys_num];
 	result = func(
 		arch_syscall_arg0(r), arch_syscall_arg1(r), arch_syscall_arg2(r),
 		arch_syscall_arg3(r), arch_syscall_arg4(r), arch_syscall_arg5(r));
