@@ -98,6 +98,7 @@ struct signal_config {
 #define PROC_FLAG_TRACE_SIGNALS      0x80
 
 #define PROC_FLAG_RESTORE_SIGMASK    0x100
+#define PROC_FLAG_SANDBOXED          0x200
 
 typedef struct process {
 	pid_t id;    /* PID */
