@@ -1,6 +1,6 @@
 # ToaruOS
 
-ToaruOS is a  operating system for x86-64 PCs and ARMv8 VM environments.
+ToaruOS is a "complete" operating system for x86-64 PCs and ARMv8 VM environments.
 
 While many independent, hobby, and research OSes aim to experiment with new designs, ToaruOS is intended as an educational resource, providing a representative microcosm of functionality found in major desktop operating systems.
 
